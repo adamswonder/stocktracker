@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# StockTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### By Adams Wonderboy
 
-## Available Scripts
+### It is a description of stocktracker that targets SMEs in kenya, to help them effectively monitor how their stock is utilized in order to maximize on profit margins
 
-In the project directory, you can run:
+## Table of Content
 
-### `npm start`
+- [StockTracker](#stocktracker)
+        - [By Adams Wonderboy](#by-adams-wonderboy)
+    - [It is a description of stocktracker that targets SMEs in kenya, to help them effectively monitor how their stock is utilized in order to maximize on profit margins](#it-is-a-description-of-stocktracker-that-targets-smes-in-kenya-to-help-them-effectively-monitor-how-their-stock-is-utilized-in-order-to-maximize-on-profit-margins)
+  - [Table of Content](#table-of-content)
+  - [Description](#description)
+  - [Overview](#overview)
+  - [Installation](#installation)
+    - [Run the Project](#run-the-project)
+  - [Requirements](#requirements)
+  - [Technology Used](#technology-used)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p> It is a description of stocktracker that targets SMEs in kenya, to help them effectively monitor how their stock is utilized in order to maximize on profit margins.</p>
 
-### `npm test`
+## Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![My Image](/Home.png)
 
-### `npm run build`
+![My Image](/About.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![My Image](/AddStock.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open the project using IDE of preference
+- This should open in your default browser in case you are using VS Code :)
+- Install your own `json-server` to run local calls via `npm -i json-server`.
+- Use `npm -i -g json-server` to install the server on a global scope.
+- On the root folder, run `npm install` to install dependencies needed then run the json-server using `json-server --watch db.json`.
+- finally run `npm start` to start the application in web browser.
 
-### `npm run eject`
+### Run the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow the instructions below to fireup json-server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the JSON server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```json
+json-server --watch db.json --port 3000
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Requirements
 
-## Learn More
+- Access it via a computer or laptop
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- An access to the Internet for the Public API consumption
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Go Back to the top](#table-of-content)
 
-### Code Splitting
+## Technology Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- HTML - which was used to build the structure of the page (Root).
 
-### Analyzing the Bundle Size
+- CSS - which was used to style the pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- JSX - used for creating function components.
+  
+- Fetch API - allows to asynchronously request for a resource.
 
-### Making a Progressive Web App
+[Go Back to the top](#table-of-content)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+MIT License
 
-### Advanced Configuration
+Copyright (c) 2022 moringawonder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Deployment
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
