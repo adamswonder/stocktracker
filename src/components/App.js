@@ -4,6 +4,8 @@ import "./App.css";
 import { Stocks } from "./Stocks";
 import NavBar from "./NavBar"
 import { TitleHeader } from "./TitleHeader";
+import AddStock from "./AddStock";
+import About from "./About"
 
 
 function App() {
@@ -11,16 +13,17 @@ function App() {
   const [page, setPage] = useState("/")
 
   return (
+    //Employ browserRouter for navigation
     <div className="App">
       <BrowserRouter>
         <TitleHeader />
         <NavBar onChangePage={setPage} />
         <Switch>
           <Route exact path="/about">
-            <Stocks />
+            <About />
           </Route>
-          <Route exact path="/contact">
-            <Stocks />
+          <Route exact path="/addstock">
+            <AddStock />
           </Route>
           <Route exact path="/">
             <Stocks />
