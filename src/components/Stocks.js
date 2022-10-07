@@ -3,7 +3,7 @@ import "./App.css";
 import { ColHeader } from "./ColHeader";
 import Search from "./Search";
 // import { stockData } from "./data";
-import { TitleHeader } from "./TitleHeader";
+// import { TitleHeader } from "./TitleHeader";
 
 
 export const Stocks = () => {
