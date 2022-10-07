@@ -80,13 +80,68 @@ td {
   padding: 0.3rem 1rem;
 }
 .form-review {
-  margin-left: 39%;
-  margin-top: 10%;
+  margin-left: 27%;
+  margin-top: 8%;
 }
-/* input {
-  background-color: gray;
-  color: white;
-} */
+/* Form */
 #form-p {
   margin-left: 32%;
+}
+#lorem {
+  max-width: 40%;
+  text-align: center;
+  margin: auto;
+}
+/* i-class */
+.share i {
+  text-decoration: none;
+  color: #e79416;
+  width: 10px;
+  padding: 10px;
+  font-size: x-large;
+}
+.myform {
+  border: 1px solid;
+  width: 50%;
+  display: flex;
+  margin: 100px auto;
+  align-items: center;
+  
+}
+.form-review {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+}
+.form-review input {
+  margin: 10px 0;
+  font-size: 16px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border-color: #f4b14d;
+}
+em {
+  font-weight: 300;
+  font-size: 13px;
+}
+.form-review button {
+  width: fit-content;
+  margin: auto;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: 30px auto 40px;
+  border: 1px solid #f4b14d;
+  border-radius: 10px;
+}
+.form-review button:hover {
+  cursor: pointer;
+  background-color: #f4b14d;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+input {
+  text-align: center;
 }
