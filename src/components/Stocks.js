@@ -13,7 +13,7 @@ export const Stocks = () => {
 
     //side function to get stickdata from the API
     useEffect(() => {
-        fetch(`http://localhost:3000/stockData`)
+        fetch(`https://theadamsproject.herokuapp.com/stockData`)
             .then((res) => res.json())
             .then((stockData) => {
                 // console.log(stockData)
