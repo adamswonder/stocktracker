@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { ColHeader } from "./ColHeader";
 import Search from "./Search";
-// import { stockData } from "./data";
-// import { TitleHeader } from "./TitleHeader";
 
 
 export const Stocks = () => {
