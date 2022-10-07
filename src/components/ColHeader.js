@@ -10,13 +10,13 @@ export const ColHeader = () => {
                             <h2>Company</h2>
                         </td>
                         <td>
-                            <h2>Ticker</h2>
+                            <h2>Company Code</h2>
                         </td>
                         <td>
                             <h2>StockPrice</h2>
                         </td>
                         <td>
-                            <h2>TimeElapsed</h2>
+                            <h2>Client</h2>
                         </td>
                     </tr>
                 </tbody>

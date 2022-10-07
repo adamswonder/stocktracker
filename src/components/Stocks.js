@@ -42,7 +42,7 @@ export const Stocks = () => {
                             <Stock
                                 key={key}
                                 company={data.company}
-                                ticker={data.ticker}
+                                ticker={data.code}
                                 stockPrice={data.stockPrice}
                                 client={data.client}
                             />
@@ -64,7 +64,7 @@ const Stock = ({ company, ticker, stockPrice, client }) => {
                         <h5>{company}</h5>
                     </td>
                     <td>
-                        <h5>{ticker}</h5>
+                        <h5>{code}</h5>
                     </td>
                     <td>
                         <h4>{stockPrice}</h4>
