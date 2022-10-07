@@ -11,7 +11,7 @@ import About from "./About"
 function App() {
   //set state for pagerender
   const [page, setPage] = useState("/")
-
+  console.log(page)
   return (
     //Employ browserRouter for navigation
     <div className="App">
