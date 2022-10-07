@@ -42,7 +42,7 @@ export const Stocks = () => {
                             <Stock
                                 key={key}
                                 company={data.company}
-                                ticker={data.code}
+                                code={data.code}
                                 stockPrice={data.stockPrice}
                                 client={data.client}
                             />
@@ -54,7 +54,7 @@ export const Stocks = () => {
     );
 };
 
-const Stock = ({ company, ticker, stockPrice, client }) => {
+const Stock = ({ company, code, stockPrice, client }) => {
     if (!company) return <div />;
     return (
         <table>
