@@ -44,7 +44,7 @@ export const Stocks = () => {
                                 company={data.company}
                                 ticker={data.ticker}
                                 stockPrice={data.stockPrice}
-                                timeElapsed={data.timeElapsed}
+                                client={data.client}
                             />
                         </div>
                     );
@@ -54,7 +54,7 @@ export const Stocks = () => {
     );
 };
 
-const Stock = ({ company, ticker, stockPrice, timeElapsed }) => {
+const Stock = ({ company, ticker, stockPrice, client }) => {
     if (!company) return <div />;
     return (
         <table>
@@ -70,7 +70,7 @@ const Stock = ({ company, ticker, stockPrice, timeElapsed }) => {
                         <h4>{stockPrice}</h4>
                     </td>
                     <td>
-                        <p>{timeElapsed}</p>
+                        <p>{client}</p>
                     </td>
                 </tr>
             </tbody>
