@@ -3,44 +3,44 @@
     {
       "id": 1,
       "company": "David Inc",
-      "ticker": "DAVE",
+      "code": "DAVE",
       "stockPrice": "22.76 USD",
-      "timeElapsed": "5 sec ago"
+      "client": "Seller"
     },
     {
       "id": 2,
       "company": "ShopDirect Ltd",
-      "ticker": "SD",
+      "code": "SD",
       "stockPrice": "45.28 USD",
-      "timeElapsed": "10 sec ago"
+      "client": "Buyer"
     },
     {
       "id": 3,
       "company": "Blue Inc",
-      "ticker": "BI",
+      "code": "BI",
       "stockPrice": "341.79 USD",
-      "timeElapsed": "3 sec ago"
+      "client": "Buyer"
     },
     {
       "id": 4,
       "company": "Sunken Limited",
-      "ticker": "SK",
+      "code": "SK",
       "stockPrice": "9.87 USD",
-      "timeElapsed": "4 sec ago"
+      "client": "Seller"
     },
     {
       "id": 5,
       "company": "House of Leather",
-      "ticker": "HOL",
+      "code": "HOL",
       "stockPrice": "300.99 USD",
-      "timeElapsed": "10 sec ago"
+      "client": "Seller"
     },
     {
       "id": 6,
       "company": "Hub Inc",
-      "ticker": "HUBS",
+      "code": "HUBS",
       "stockPrice": "115.22 USD",
-      "timeElapsed": "12 sec ago"
+      "client": "Buyer"
     }
   ],
   "comments": [
